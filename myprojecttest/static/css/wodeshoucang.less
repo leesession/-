@@ -1,0 +1,220 @@
+@import "public";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  background-color: #ffffff;
+}
+
+@borderRadius: 0.06rem;
+.wdsc-search {
+  width: 100%;
+  height: 0.5rem;
+  background-color: #fafafa;
+  position: fixed;
+  top: 0;
+
+  &>.serch-div {
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    height: 0.3rem;
+    margin: 0.1rem auto;
+    background-color: #f0f0f0;
+    border-radius: 0.04rem;
+    & > input {
+
+      //width: 78%;
+      height: 0.3rem;
+      outline: none;
+      border: none;
+      background-color: #f0f0f0;
+      border-radius: @borderRadius;
+      padding-left: 0.1rem;
+      padding-right: 0.5rem;
+      flex: 1;
+    }
+    &>img{
+      width: 0.18rem;
+      height: 0.18rem;
+      margin: 0.06rem 0.09rem;
+    }
+  }
+
+}
+.collection{
+  position: fixed;
+  top: 0.5rem;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  & .wodeshoucang-wrapper{
+    height: 100%;
+    overflow: hidden;
+  }
+}
+.CollectionList {
+  width: 100%;
+  background-color: #f5f5f5;
+  height: auto;
+  border: 1px solid transparent;
+
+  & > .collectionItem {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #ffffff;
+    & > .info {
+      width: 90%;
+      height: 0.3rem;
+      margin: 0.12rem auto 0 auto ;
+      //border: 1px solid slateblue;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-top: 0.1rem;
+      position: relative;
+      & > img {
+        width: 0.3rem;
+        height: 0.3rem;
+        border-radius: 50%;
+        margin-right: 0.1rem;
+
+      }
+      & > p {
+        line-height: 0.3rem;
+      }
+      & > .name {
+        color: #666666;
+        font-size: 0.15rem;
+        width: 100%;
+        flex: 1;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+      }
+      & > .timer {
+        color: #999999;
+        font-size: 0.12rem;
+
+      }
+    }
+    & .wdsc-repostTitle{
+      font-size: 0.14rem;
+      color: #444444;
+      width: 90%;
+      margin: 0.1rem auto 0.05rem auto;
+    }
+    &  .sc-content {
+      width: 90%;
+      margin: 0.1rem auto;
+      height: 0.9rem;
+      display: flex;
+      flex-direction: row;
+      padding: 0.06rem 0;
+      & > .sc-img {
+        width: 0.9rem;
+        height: 0.9rem;
+        border-radius: 0.06rem;
+        //background-image: url("../../static/img/fengjing.jpg");
+        background-size: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin-right: 0.1rem;
+      }
+      & > .sc-info {
+        flex: 1;
+        height: 0.9rem;
+
+
+        & > p:nth-child(1) {
+          font-size: 0.14rem;
+          color: #333333;
+          //margin-top: 0.1rem;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+
+          //border: 1px solid slateblue;
+        }
+        & > p:nth-child(2) {
+          font-size: 0.12rem;
+          color: #5c5c5c;
+          margin-top: 0.05rem;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          word-break: break-all;
+          line-height: 0.2rem;
+        }
+      }
+      & .scinfomaxwidth{
+        max-width: calc(~'100% - 1rem');
+      }
+    }
+    & .line {
+      margin-top: 0.1rem;
+      height: 0.01rem;
+      border-bottom: 1px solid #f5f5f5;
+    }
+    & .scTags {
+      width: 90%;
+      margin: 0.1rem;
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 0.1rem;
+      &>div{
+        height: 0.2rem;
+        border-radius: 0.1rem;
+        line-height: 0.2rem;
+        color: @RedColor;
+        border: 1px solid @RedColor;
+        text-align: center;
+        font-size: 0.12rem;
+        margin-right: 0.1rem;
+        padding: 0 0.1rem;
+      }
+    }
+    & .sczhanwei{
+      width: 100%;
+      height: 0.1rem;
+      background-color: #f5f5f5;
+    }
+  }
+}
+.wdscdav {
+  width: 0.1rem !important;
+  height: 0.1rem !important;
+  position: absolute;
+  bottom: 0;
+  left: 0.22rem !important;
+}
+.is-delect-text {
+  font-size: 0.14rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  //border: 1px solid seagreen;
+  & > p {
+    top: 50%;
+    left: 35%;
+    position: absolute;
+    color: #f5f5f5;
+    transform: translate(-25%, -50%);
+    font-size: 0.16rem;
+  }
+}
+.is-delect-text1{
+  left: -0.01rem !important;
+}
+.zhuanfaItem{
+  background-color: #f5f5f5;
+}

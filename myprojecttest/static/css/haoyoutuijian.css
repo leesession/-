@@ -1,0 +1,140 @@
+.hytj-search {
+  width: 100%;
+  height: 0.5rem;
+  background-color: #fafafa;
+  border: 1px solid transparent;
+}
+.hytj-search > .serch-div {
+  width: 92%;
+  display: flex;
+  flex-direction: row;
+  height: 0.3rem;
+  margin: 0.1rem auto;
+  background-color: #f0f0f0;
+  border-radius: 0.04rem;
+}
+.hytj-search > .serch-div > input {
+  height: 0.3rem;
+  outline: none;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 0.06rem;
+  padding-left: 0.1rem;
+  padding-right: 0.5rem;
+  flex: 1;
+}
+.hytj-search > .serch-div > img {
+  width: 0.18rem;
+  height: 0.18rem;
+  margin: 0.06rem 0.09rem;
+}
+.haoyoudiv {
+  width: 100%;
+  position: relative;
+  height: 0.45rem;
+}
+.haoyoudiv > div {
+  position: absolute;
+  right: 0.1rem;
+  top: 0;
+  height: 0.45rem;
+  display: flex;
+  flex-direction: row;
+}
+.haoyoudiv > div > span {
+  color: #999999;
+  line-height: 0.45rem;
+  display: inline-block;
+  font-size: 0.14rem;
+}
+.haoyoudiv > div > img {
+  width: 0.14rem;
+  height: 0.14rem;
+  margin-top: 0.16rem;
+  margin-right: 0.05rem;
+}
+.hytj-text {
+  text-align: left;
+  font-size: 0.15rem;
+  line-height: 0.45rem;
+  color: #3E78CF;
+  height: 0.45rem;
+  padding-left: 0.1rem;
+}
+.hytj-ul {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+}
+.hytj-ul > .hytj-li {
+  width: 94%;
+  margin: 0 auto;
+  height: 0.925rem;
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.hytj-ul > .hytj-li > img {
+  display: block;
+  width: 0.68rem;
+  height: 0.68rem;
+  margin-top: 0.1225rem;
+  border-radius: 50%;
+}
+.hytj-ul > .hytj-li > .hytj-info {
+  flex: 1;
+  height: 0.5rem;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+.hytj-ul > .hytj-li > .hytj-info > .hy-name {
+  color: #444444;
+  font-size: 0.14rem;
+}
+.hytj-ul > .hytj-li > .hytj-info > .hy-sign {
+  color: #666666;
+  font-size: 0.12rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  margin-top: 0.1rem;
+}
+.hytj-ul > .hytj-li .hytj-wgz {
+  width: 0.6rem;
+  height: 0.3rem;
+  border-radius: 0.06rem;
+  margin-top: 0.3rem;
+  text-align: center;
+  line-height: 0.3rem;
+  font-size: 0.14rem;
+  color: #f5746f;
+  border: 1px solid #f5746f;
+}
+.hytj-ul > .hytj-li .hytj-ygz {
+  width: 0.6rem;
+  height: 0.3rem;
+  border-radius: 0.06rem;
+  margin-top: 0.3rem;
+  text-align: center;
+  line-height: 0.3rem;
+  font-size: 0.14rem;
+  color: #666666 !important;
+  border: 1px solid #666666 !important;
+}
+.zanwu {
+  color: #444444;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.2rem;
+  margin-top: 0.2rem;
+}
+.bytjdav {
+  width: 0.12rem ;
+  height: 0.12rem ;
+  position: absolute;
+  bottom: 0.11rem;
+  left: 0.5rem ;
+}

@@ -1,0 +1,80 @@
+.yo-scroll {
+  font-size: 24px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 100;
+  height: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.yo-scroll .inner {
+  position: absolute;
+  top: -5rem;
+  width: 100%;
+  height: auto;
+  transition-duration: 300ms;
+}
+.yo-scroll .inner .pull-refresh {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+}
+.yo-scroll .inner .load-more {
+  height: 5rem;
+  line-height: 5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.yo-scroll .inner .nullData {
+  font-size: 26px;
+  color: #999999;
+  height: 100px;
+  line-height: 80px;
+  text-align: center;
+}
+.yo-scroll .inner .down-tip,
+.yo-scroll .inner .refresh-tip,
+.yo-scroll .inner .up-tip {
+  display: none;
+}
+.yo-scroll .inner .up-tip:before,
+.yo-scroll .inner .refresh-tip:before {
+  content: '';
+  display: inline-block;
+  width: 160px;
+  height: 70px;
+  background-size: 70% !important;
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+.yo-scroll .inner .up-tip:before {
+  background: url(../../static/img/close.png) no-repeat center;
+}
+.yo-scroll .inner .refresh-tip:before {
+  background: url(../../static/img/close.png) no-repeat center;
+}
+.yo-scroll.touch .inner {
+  transition-duration: 0;
+}
+.yo-scroll.down .down-tip {
+  display: block;
+}
+.yo-scroll.up .up-tip {
+  display: block;
+}
+.yo-scroll.refresh .refresh-tip {
+  display: block;
+}

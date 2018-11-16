@@ -1,0 +1,336 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  background-color: #f5f5f5;
+}
+a {
+  display: inherit;
+}
+.wode {
+  width: 100%;
+  overflow-x: hidden;
+}
+.page {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  -ms-touch-action: none;
+  /* Prevent the callout on tap-hold and text selection */
+  -webkit-touch-callout: none;
+  user-select: none;
+  text-size-adjust: none;
+}
+.iScrollVerticalScrollbar {
+  position: absolute;
+  z-index: 9999;
+  width: 2px;
+  bottom: 2px;
+  top: 2px;
+  right: 2px;
+  overflow: hidden;
+}
+.iScrollVerticalScrollbar.iScrollBothScrollbars {
+  bottom: 55px;
+}
+.iScrollIndicator {
+  position: absolute;
+  background: #999;
+  border-radius: 6px;
+  opacity: .8;
+}
+.iScrollVerticalScrollbar .iScrollIndicator {
+  width: 100%;
+  background: #999;
+}
+.gerenzhongxin-info {
+  width: 100%;
+  padding: 0.15rem 0;
+  background-color: #ffffff;
+}
+.gerenzhongxin-info .top {
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.gerenzhongxin-info .top > .top-left {
+  width: 0.75rem;
+  height: 0.75rem;
+  position: relative;
+}
+.gerenzhongxin-info .top > .top-left .headerImg {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  display: block;
+}
+.gerenzhongxin-info .top > .top-left .dav1 {
+  position: absolute;
+  width: 0.13rem;
+  height: 0.13rem;
+  bottom: 0.01rem;
+  right: 0.03rem;
+}
+.gerenzhongxin-info .top .right {
+  width: 0.08rem;
+  height: 0.145rem;
+  margin-top: .3rem;
+}
+.gerenzhongxin-info .top .middle {
+  margin: 0 0 0.06rem 0.15rem;
+  height: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.gerenzhongxin-info .top .m-name {
+  font-size: 0.17rem;
+  color: #333333;
+  height: 0.3rem;
+  font-weight: bold;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 80%;
+}
+.gerenzhongxin-info .top .m-name .yunying {
+  font-size: .12rem;
+  width: .6rem;
+  height: .2rem;
+  text-align: center;
+  border: .01rem solid #1086c2;
+  color: #1086c2;
+  border-radius: .1rem;
+  padding: .01rem .04rem;
+  margin-left: .02rem;
+  position: relative;
+  top: -0.02rem;
+}
+.gerenzhongxin-info .top .signaturetext {
+  color: #f5746f !important;
+}
+.gerenzhongxin-info .top .m-time {
+  font-size: 0.12rem;
+  padding-top: 0.05rem;
+  color: #666666;
+  width: 89%;
+}
+.gerenzhongxin-info .top .m-time > span {
+  font-size: 0.13rem;
+  color: #666666;
+}
+.gerenzhongxin-info .top .m-time .yxl {
+  margin-left: 0.1rem;
+}
+.gerenzhongxin-info .top .sdsm {
+  font-size: 0.12rem;
+  margin-top: 0.05rem;
+  color: #666666;
+}
+.square {
+  width: 94%;
+  margin: 0 auto;
+  height: 0.44rem;
+  border-radius: 0.06rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  margin-top: 0.15rem;
+}
+.square > div {
+  flex-grow: 1;
+  text-align: center;
+  height: 0.25rem;
+  color: #999999;
+  font-size: 0.14rem;
+  line-height: 0.25rem;
+  margin: 0.095rem auto;
+  border-right: 1px solid #999999;
+}
+.square > div p {
+  color: #444444;
+}
+.square > div span {
+  color: #f5746f;
+  margin-left: 0.03rem;
+}
+.square > div:nth-child(3) {
+  border-right: none;
+}
+.anniu {
+  width: 100%;
+  background-color: #ffffff;
+}
+.anniu div {
+  width: 100%;
+  height: 0.6rem;
+  display: flex;
+  flex-direction: row;
+}
+.anniu div > img {
+  width: 0.3rem;
+  height: 0.3rem;
+  margin: 0.15rem 0.15rem;
+}
+.anniu div > p {
+  width: 100%;
+  height: 100%;
+  line-height: 0.6rem;
+  color: #333333;
+  font-size: 0.15rem;
+  border-bottom: 1px solid #f5f5f5;
+  margin-right: 0.15rem;
+  position: relative;
+}
+.yijianfankui {
+  width: 100%;
+  height: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+.yijianfankui > img {
+  width: 0.3rem;
+  height: 0.3rem;
+  margin: 0.15rem 0.15rem;
+}
+.yijianfankui > p {
+  width: 100%;
+  height: 100%;
+  line-height: 0.6rem;
+  color: #333333;
+  font-size: 0.15rem;
+  border-bottom: 1px solid #f5f5f5;
+  margin-right: 0.15rem;
+}
+.gerenzhongxin-zhanwei {
+  width: 100%;
+  background-color: #f5f5f5;
+  height: 0.1rem;
+}
+#reset {
+  position: absolute;
+  top: 0.01rem;
+  right: 0.01rem;
+  width: 0.2rem;
+  height: 0.2rem;
+  font-size: 0.2rem;
+}
+.m-reset {
+  color: 0.06rem !important;
+}
+.hongbao-dialog {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.hongbao-dialog .hongbaoDialogImg {
+  width: 3.28rem;
+  height: 4.165rem;
+  background-image: url("../../static/img/hongbao.png");
+  background-size: 100% 100%;
+  background-position: 0;
+  background-repeat: no-repeat;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.hongbao-dialog .hongbaoDialogImg .dianhongbao {
+  width: 1.27rem;
+  height: 1.27rem;
+  background-image: url("../../static/img/dianhongbao.png");
+  background-size: 100% 100%;
+  background-position: 0;
+  background-repeat: no-repeat;
+  left: 33%;
+  top: 17%;
+  position: absolute;
+}
+.hongbao-dialog .hongbaoDialogImg .dianhongbaoactive {
+  animation: hongbaorourate 2s linear;
+}
+@keyframes hongbaorourate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  75% {
+    transform: rotateY(540deg);
+  }
+  100% {
+    transform: rotateY(720deg);
+  }
+}
+.hongbao-dialog .hongbaoDialogImg2 {
+  width: 3.28rem;
+  height: 4.165rem;
+  background-image: url(../../static/img/hongbaokai.png);
+  background-size: 100% 100%;
+  background-position: 0;
+  background-repeat: no-repeat;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.hongbao-dialog .hongbaoDialogImg2 .hongbaoedit {
+  display: flex;
+  flex-direction: column;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -60%);
+}
+.hongbao-dialog .hongbaoDialogImg2 .hongbaoedit > p:nth-child(1) {
+  color: #ffcc00 ;
+  font-size: 0.37rem;
+  padding-top: 0.15rem;
+}
+.hongbao-dialog .hongbaoDialogImg2 .hongbaoedit > p:nth-child(1) > span {
+  font-size: 0.25rem;
+}
+.hongbao-dialog .hongbaoDialogImg2 .hongbaoedit > p:nth-child(2) {
+  color: #ffcc00 ;
+  font-size: 0.16rem;
+  text-align: center;
+  padding-top: 0.15rem;
+}
+.hongbao-dialog .hongbaoDialogImg2 .hongbaoedit > p:nth-child(3) {
+  color: #ffcc00 ;
+  font-size: 0.16rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  text-decoration: underline;
+}
+.grzxdian {
+  width: .1rem;
+  height: .1rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #dd191d;
+  line-height: .6rem;
+  text-align: center;
+  margin-left: .04rem;
+}
+.grzxhuangv {
+  width: 0.14rem;
+  height: 0.14rem;
+  position: relative;
+  top: 0.01rem;
+  margin-left: -0.06rem;
+}

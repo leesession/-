@@ -1,0 +1,572 @@
+.invite-reward {
+  background: #fff;
+  padding-bottom: 0.55rem;
+}
+.invite-reward .invite-img {
+  width: 1.85rem;
+  height: 1.42rem;
+  padding-top: 0.6rem;
+  margin: 0 auto;
+}
+.invite-reward .invite-img img {
+  width: 100%;
+}
+.invite-reward .invite-title {
+  padding: 0.28rem 0.2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.invite-reward .invite-title .title-line {
+  height: 1px;
+  width: 0.4rem;
+  background-color: #999999;
+  margin-top: 0.15rem;
+}
+.invite-reward .invite-title .title-style {
+  font-size: .2rem;
+  color: #303030;
+  width: 140%;
+  text-align: center;
+}
+.invite-reward .invite-rule {
+  text-align: center;
+  font-size: 0.15rem;
+  color: #999;
+  margin-top: 0.2rem;
+  padding: 0 0.1rem;
+}
+.invite-reward .invite-rule p {
+  line-height: 0.25rem;
+}
+.invite-reward .invite-button {
+  width: 2rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin: 0.4rem auto 0;
+  font-size: 0.18rem;
+  color: #FFFEFE;
+  background-color: #EA5038;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+.team-load {
+  display: flex;
+  line-height: 28px;
+  padding: .05rem 37%;
+}
+.team-load p {
+  font-size: .16rem;
+  color: #bbb;
+  margin-left: .1rem;
+}
+.my-reward {
+  padding-top: 0.25rem;
+}
+.my-reward .reward-title {
+  font-size: 0.15rem;
+  color: #303030;
+  text-align: center;
+}
+.my-reward .invite-detail {
+  display: flex;
+  margin-top: 0.3rem;
+}
+.my-reward .invite-detail .reward-item {
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.my-reward .invite-detail .reward-item .reward-count {
+  font-size: 0.15rem;
+  color: #303030;
+}
+.my-reward .invite-detail .reward-item .reward-desc {
+  font-size: 0.13rem;
+  color: #999;
+  margin-top: 0.1rem;
+}
+.my-reward .invite-detail .reward-item:first-child {
+  border-right: 1px solid #E6E6E6;
+}
+.pull-up {
+  position: fixed;
+  bottom: 0.05rem;
+  left: 1.795rem;
+  width: 0.165rem;
+  height: 0.155rem;
+  background-size: 100%;
+}
+#inviteRecord {
+  display: none;
+}
+.invite-record {
+  background: #fff;
+}
+.invite-record li {
+  display: flex;
+}
+.invite-record li .person-name {
+  width: 40%;
+}
+.invite-record li .person-money {
+  width: 30%;
+}
+.invite-record li .person-time {
+  width: 30%;
+}
+.invite-record .table-header {
+  font-size: 0.13rem;
+  color: #999;
+  border-bottom: 1px solid #E6E6E6;
+}
+.invite-record .table-header div {
+  padding: 0.14rem 0.12rem;
+}
+.invite-record .table-body {
+  padding: 0 0.12rem;
+  font-size: 0.15rem;
+  color: #303030;
+}
+.invite-record .table-body div {
+  padding: 0.17rem 0.12rem;
+  border-bottom: 1px solid #F0F0F0;
+}
+.invite-record .table-body div:first-child {
+  padding-left: 0;
+}
+.invite-record .table-body div:last-child {
+  padding-right: 0;
+}
+.register-score {
+  width: 100%;
+  height: 2rem;
+  background-size: 100% auto;
+  box-sizing: border-box;
+  position: relative;
+}
+.register-score .notice {
+  font-size: .15rem;
+  font-weight: bold;
+  height: .35rem;
+  line-height: .35rem;
+  background-color: #F7DDD0;
+  color: #EA5038;
+}
+.register-score .notice img {
+  width: .15rem;
+  margin-left: .12rem;
+  margin-right: .08rem;
+  vertical-align: middle;
+  position: relative;
+  top: -0.01rem;
+}
+.register-score .score-title {
+  font-size: 0.15rem;
+  padding-top: 0.3rem;
+  color: #843629;
+  text-align: center;
+}
+.register-score .scores {
+  font-size: 0.4rem;
+  color: #843629;
+  text-align: center;
+  padding-top: 0.2rem;
+}
+.register-score .click-register {
+  position: absolute;
+  bottom: -0.4rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.register-score .click-register .click-img {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  font-size: 0.15rem;
+  position: relative;
+}
+.register-score .click-register .click-img p:first-child {
+  padding-top: 0.16rem;
+}
+.register-score .click-register .click-img .jifen {
+  font-size: 0.13rem;
+  padding-top: 0.06rem;
+}
+.register-score .click-register .click-img div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .8s linear;
+  opacity: 1;
+  font-size: .16rem;
+}
+.register-score .click-register .click-img div.active {
+  opacity: 0;
+  top: -1rem;
+}
+.register-score .click-register .sign {
+  color: #EA5038;
+}
+.register-score .click-register .signed {
+  color: #70aece;
+}
+.register-status {
+  padding: 0.6rem 0.12rem 0;
+}
+.register-status .integral {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.13rem;
+  color: #303030;
+  padding: 0 0.175rem 0.05rem;
+}
+.register-status .integral .color-red {
+  color: #EA5038;
+}
+.register-status .integral-status {
+  display: flex;
+  justify-content: space-between;
+}
+.register-status .integral-status .line-short {
+  width: 0.18rem;
+  border-bottom: 1px dashed #303030;
+  height: 0;
+  margin-top: 0.02rem;
+}
+.register-status .integral-status .status-img {
+  width: 6px;
+  height: 6px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  margin: 0 .03rem;
+  position: relative;
+  top: -0.01rem;
+}
+.register-status .integral-status .line-long {
+  width: 0.37rem;
+  border-bottom: 1px dashed #303030;
+  height: 0;
+  margin-top: 0.02rem;
+}
+.register-status .integral-status .sign {
+  display: flex;
+}
+.register-status .one-week {
+  padding-top: 0.05rem;
+  color: #999;
+}
+.exchange .exchange-title {
+  padding: 0.45rem 0.895rem 0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.exchange .exchange-title .exchange-line {
+  height: 1px;
+  width: 0.4rem;
+  background-color: #999999;
+  margin-top: 0.1rem;
+}
+.exchange .exchange-title .exchange-style {
+  font-size: 0.15rem;
+  color: #303030;
+  width: 100%;
+  text-align: center;
+}
+.exchange .exchagne-list {
+  padding: 0 .12rem .12rem .12rem;
+}
+.exchange .exchagne-list .exchange-item {
+  height: 1.3rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.exchange .exchagne-list .exchange-item + .exchange-item {
+  margin-top: .12rem;
+}
+.integral-all {
+  font-size: 0.15rem;
+  color: #303030;
+  background-color: #fff;
+  height: 1rem;
+  line-height: 1rem;
+  padding: 0 0.125rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+}
+.integral-all span:first-child {
+  font-size: 0.3rem;
+}
+.integral-all span:last-child {
+  margin-left: 50%;
+  background-color: #FF8519;
+  color: #fff;
+  padding: .05rem .12rem;
+  border-radius: 4px;
+  position: relative;
+  top: -0.05rem;
+}
+.integral-details {
+  background-color: #fff;
+}
+.integral-details .mint-navbar {
+  padding: 0 0.7rem;
+  border-bottom: 1px solid #E6E6E6;
+}
+.integral-details .mint-navbar .mint-tab-item {
+  margin: 0 0.06rem;
+  padding: 0.15rem 0;
+}
+.integral-details .mint-navbar .mint-tab-item .mint-tab-item-label {
+  font-size: 0.15rem;
+}
+.integral-details .mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 2px solid #EA5038;
+  color: #EA5038;
+}
+.integral-details .thing-one {
+  font-size: .15rem;
+  padding: .12rem .14rem;
+  position: relative;
+  border-bottom: 1px solid #F0F0F0;
+}
+.integral-details .thing-one .thing-title {
+  font-size: 0.15rem;
+  color: #303030;
+  padding-bottom: 0.05rem;
+}
+.integral-details .thing-one .thing-time {
+  font-size: 0.13rem;
+  color: #999;
+}
+.integral-details .thing-one .thing-score {
+  position: absolute;
+  right: 0.14rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.2rem;
+  color: #303030;
+}
+.integral-details .thing-one .red {
+  color: #f5746f;
+}
+.integral-details .thing-one .green {
+  color: #41ad42;
+}
+.integral-details .no-record {
+  font-size: .15rem;
+  padding: .4rem .12rem .2rem .12rem;
+  text-align: center;
+  color: #999;
+}
+#register,
+#exchange {
+  font-size: .15rem;
+}
+#register .modal,
+#exchange .modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+}
+#register .modal .content,
+#exchange .modal .content {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3.3rem;
+  height: 4.5rem;
+  background-color: #fff;
+  border-radius: .04rem;
+}
+#register .modal .content .title,
+#exchange .modal .content .title {
+  font-size: .17rem;
+  font-weight: bold;
+  color: #303030;
+  background-color: #F5F5F5;
+  height: .4rem;
+  line-height: .43rem;
+  text-align: center;
+  border-top-left-radius: .04rem;
+  border-top-right-radius: .04rem;
+}
+#register .modal .content .detail,
+#exchange .modal .content .detail {
+  height: 4.1rem;
+  padding: .25rem .3rem;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  font-size: .16rem;
+  line-height: .25rem;
+  color: #303030;
+  -webkit-overflow-scrolling: touch;
+}
+#register .modal .content .detail .jiantou,
+#exchange .modal .content .detail .jiantou {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+#register .modal .content .detail .reason,
+#exchange .modal .content .detail .reason {
+  font-size: .16rem;
+  text-indent: 2em;
+}
+#register .modal .content .detail .card,
+#exchange .modal .content .detail .card {
+  margin-top: .3rem;
+  font-size: .18rem;
+  text-align: center;
+  width: 1rem;
+  background-color: #FFE7D1;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#register .modal .content .detail .card-time,
+#exchange .modal .content .detail .card-time {
+  margin-top: .25rem;
+  font-size: .16rem;
+}
+#register .modal .content .detail .card-time p,
+#exchange .modal .content .detail .card-time p {
+  font-size: .16rem;
+}
+#register .modal .content .detail .card-time p b,
+#exchange .modal .content .detail .card-time p b,
+#register .modal .content .detail .card-time p span,
+#exchange .modal .content .detail .card-time p span {
+  font-size: .16rem;
+}
+#register .modal .content .detail .card-time .tip,
+#exchange .modal .content .detail .card-time .tip {
+  color: #e4393c;
+}
+#register .modal .content .detail .remark,
+#exchange .modal .content .detail .remark {
+  font-size: .16rem;
+  font-weight: bold;
+  margin-top: .2rem;
+}
+#register .modal .content .button,
+#exchange .modal .content .button {
+  position: absolute;
+  bottom: -0.52rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #FEFEFE;
+  width: 1.5rem;
+  height: .35rem;
+  line-height: .35rem;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: .17rem;
+}
+#exchange {
+  padding: .15rem .12rem;
+}
+#exchange > .card {
+  width: 3.51rem;
+  height: 1.3rem;
+  position: relative;
+}
+#exchange > .card img {
+  width: 100%;
+}
+#exchange > .card button {
+  font-size: .15rem;
+  position: absolute;
+  right: .2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: .6rem;
+  height: .3rem;
+  border-radius: .15rem;
+  background-color: #FF8519;
+  color: #fff;
+}
+#exchange > .card button label {
+  line-height: 1;
+  color: #fff;
+}
+#exchange > .card + .card {
+  margin-top: .1rem;
+}
+#exchange .account1 {
+  margin-top: .1rem;
+  padding: .2rem .1rem;
+  color: #666666;
+  background-color: #fff;
+  border-radius: .04rem;
+}
+#exchange .account1 .title {
+  font-size: .16rem;
+  color: #303030;
+  font-weight: bold;
+}
+#exchange .account1 p + p {
+  margin-top: .2rem;
+}
+#exchange .modal1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#exchange .modal1 .success {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 3rem;
+  height: 2rem;
+  background-color: #fff;
+  border-radius: .04rem;
+}
+#exchange .modal1 .success .img {
+  height: 1.5rem;
+  border-bottom: 1px solid #E6E6E6;
+  padding-top: .3rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+#exchange .modal1 .success .img img {
+  width: .64rem;
+}
+#exchange .modal1 .success .img p {
+  margin-top: .1rem;
+}
+#exchange .modal1 .success .operate {
+  display: flex;
+  height: .5rem;
+  line-height: .5rem;
+  font-size: .17rem;
+}
+#exchange .modal1 .success .operate span {
+  width: 50%;
+  text-align: center;
+}
+#exchange .modal1 .success .operate span:first-child {
+  color: #303030;
+}
+#exchange .modal1 .success .operate span:last-child {
+  color: #FF8519;
+}
+#exchange .modal1 .success .operate span + span {
+  border-left: 1px solid #E6E6E6;
+}

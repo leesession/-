@@ -1,0 +1,166 @@
+//@borderRadius: 0.04rem;
+//@RedColor: #E51C23;
+@import "public";
+.hytj-search {
+  width: 100%;
+
+  height: 0.5rem;
+  background-color: #fafafa;
+  //margin-top: -0.1rem;
+  border: 1px solid transparent;
+
+  & > .serch-div {
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    height: 0.3rem;
+    margin: 0.1rem auto;
+    background-color: #f0f0f0;
+    border-radius: 0.04rem;
+
+    & > input {
+      //width: 78%;
+      height: 0.3rem;
+      outline: none;
+      border: none;
+      background-color: #f0f0f0;
+      border-radius:@BorderRadiussmall;
+      padding-left: 0.1rem;
+      padding-right: 0.5rem;
+      flex: 1;
+    }
+    & > img {
+      width: 0.18rem;
+      height: 0.18rem;
+      margin: 0.06rem 0.09rem;
+    }
+  }
+
+}
+.haoyoudiv{
+  width: 100%;
+  position: relative;
+  height: 0.45rem;
+  //border: 1px solid seagreen;
+  &>div{
+    position: absolute;
+    right: 0.1rem;
+    top: 0;
+    height: 0.45rem;
+    display: flex;
+    flex-direction: row;
+    &>span{
+      color: #999999;
+      line-height: 0.45rem;
+      display: inline-block;
+      font-size: 0.14rem;
+      //padding-top: -0.1rem;
+    }
+    &>img{
+      width: 0.14rem;
+      height: 0.14rem;
+      margin-top: 0.16rem;
+      margin-right: 0.05rem;
+
+    }
+  }
+}
+.hytj-text {
+  text-align: left;
+  font-size: 0.15rem;
+  line-height: 0.45rem;
+  color: #3E78CF;
+  height: 0.45rem;
+  //width: 100%;
+  padding-left: 0.1rem;
+}
+
+.hytj-ul {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  & > .hytj-li {
+    width: 94%;
+    margin: 0 auto;
+    height: 0.925rem;
+    border-bottom: 1px solid #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    & > img {
+      display: block;
+      width: 0.68rem;
+      height: 0.68rem;
+      margin-top: 0.1225rem;
+      border-radius: 50%;
+    }
+    & > .hytj-info {
+      //flex-grow: 22;
+      flex: 1;
+      height: 0.5rem;
+      margin-top: 0.2rem;
+      margin-left: 0.1rem;
+      margin-right: 0.1rem;
+      & > .hy-name {
+        color: #444444;
+        font-size: 0.14rem;
+        //line-height: 0.25rem;
+      }
+      & > .hy-sign {
+        color: #666666;
+        font-size: 0.12rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:1;
+        overflow: hidden;
+        margin-top: 0.1rem;
+      }
+    }
+    &  .hytj-wgz {
+      width: 0.6rem;
+      height: 0.3rem;
+      //color: @RedColor;
+      border-radius: @BorderRadiussmall;
+      margin-top: 0.3rem;
+      text-align: center;
+      line-height: 0.3rem;
+      font-size: 0.14rem;
+      //color: #999999;
+      //border: 1px solid #999999;
+      color: @RedColor;
+      border: 1px solid @RedColor;
+    }
+    &  .hytj-ygz {
+      width: 0.6rem;
+      height: 0.3rem;
+      //color: @RedColor;
+      border-radius: @BorderRadiussmall;
+      margin-top: 0.3rem;
+      text-align: center;
+      line-height: 0.3rem;
+      font-size: 0.14rem;
+      //color: #999999;
+      //border: 1px solid #999999;
+      color:#666666 !important;
+      border: 1px solid #666666 !important;
+
+    }
+
+  }
+}
+
+.zanwu{
+  color: #444444;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.2rem;
+  margin-top: 0.2rem;
+}
+.bytjdav {
+  width: 0.12rem ;
+  height: 0.12rem ;
+  position: absolute;
+  //bottom: 0.01rem;
+  bottom: 0.11rem;
+  left: 0.5rem ;
+}
